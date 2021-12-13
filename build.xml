@@ -1,0 +1,22 @@
+<project name="tutorial" default="A" basedir=".">
+
+	<target name="A" depends="B" description="Compilation">
+	<tasks>  </tasks>
+	<echo>Thiz is tutorial and target A</echo>
+
+	</target>
+
+	<target name="B" depends="C">
+	<tasks>  </tasks>
+	<echo>Thiz is tutorial and target B</echo>
+	</target>
+
+	<target name="C">
+	<tasks>  </tasks>
+	<echo>Thiz is tutorial and target C</echo>
+	</target>
+
+
+
+
+</project>
